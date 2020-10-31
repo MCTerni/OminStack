@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    background: #ebf2f5;
+}
+
+body, input, button, text {
+    font: 600 18px Nunito, sans-serif;
+}
+
+#clickable important{
+    
+    transition: 250ms;
+}
+
+#clickable:hover important{
+    background: #96feff;
+}
