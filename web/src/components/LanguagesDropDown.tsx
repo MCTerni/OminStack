@@ -8,8 +8,8 @@ export default function LanguagesDropDown(){
 
     function handleChangeLanguage(event: ChangeEvent<HTMLSelectElement>){
         if(event.target.value){
-            setLanguage(event.target.value);
             i18n.changeLanguage(event.target.value);
+            setLanguage(i18n.language);
         }        
     }
 
